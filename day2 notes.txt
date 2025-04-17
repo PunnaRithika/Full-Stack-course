@@ -1,0 +1,41 @@
+
+DAY 2
+semantic tags are generally defined by their names
+examples:<header>,<footer>,<nav>, <article>, <section>
+these are used for search engine optimization,readability,accesability.
+
+non semantic:<div>,<span>
+block level elements wiil block the whole width of container(div, h1,p,)
+in line elements will take the width that it need (span,img,button)
+these are used in css styling
+
+forms:interactive tags
+
+it mainly consist of input field and label.
+
+6309863055-kamal HR manager in techwave 
+
+
+
+
+DAY 3
+Introduction to css
+Different ways to apply css
+1.Inline css-We can give styles directly to the tag/elemen by using style attribute
+2.Internal css-We will write the styles inside the style tag by selecting the elements
+3.External css-
+priority:
+inline 
+internal
+external
+
+selectors:
+universal selector:appliesto all the elements (*)
+id selector:can be used by givng id attribute and name to that id(#)
+class selector:using class attribute(.)
+selectors priority:
+id
+class
+
+
+inline>id>class

@@ -1,0 +1,28 @@
+*{
+    background-color:whitesmoke;
+}
+
+.vi{
+    color: blueviolet;
+    background-color: skyblue;
+    text-align: center;
+}
+.viimage{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+}
+.main-header{
+    text-align: center;
+}
+#footer{
+    color:yellow;
+    background-color: black;
+    text-align: center;
+}
+.pv{
+    text-align: justify;
+    font-style:oblique;
+    font-weight: 400;
+    font-size:medium;
+}

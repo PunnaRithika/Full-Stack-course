@@ -1,0 +1,33 @@
+.margin-box{
+    color: orangered;
+    background-color: orange;
+    margin: 90px;
+    padding: 30px;
+    justify-content: center;
+}
+.border-box{
+    color: black;
+    background-color: orchid;
+    border: 2px solid white;
+    padding: 30px;
+    justify-content: center;
+
+}
+.padding-box{
+    color: green;
+    background-color: greenyellow;
+    padding: 30px;
+    justify-content: center;
+
+}
+.content-box{
+    color: blue;
+    background-color: skyblue;
+    padding: 20px;
+    justify-content: center;
+
+}
+.CBM{
+    text-align: center;
+    background-color: lavender;
+}

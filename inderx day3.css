@@ -1,0 +1,43 @@
+/* <external css>
+li{
+    background-color: aquamarine;
+
+}
+span{
+    background-color: blanchedalmond;
+}
+h2{
+    color: purple;
+/* } */
+*{
+    color: blueviolet;
+}
+#heading{
+    color: brown;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.anurag{
+    color: rgb(2, 87, 37);
+    background-color: beige;
+}
+.viratimage{
+    height: 400px;
+    width: 400px;
+}
+.card-header{
+    text-align: center;
+}
+.viratimage1{
+    height: 450px;
+    width: 400px;
+}
+h3{
+    color: blue;
+    font-size: xx-large;
+}
+.content{
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+}    
