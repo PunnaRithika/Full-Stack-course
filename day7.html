@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day7</title>
+    <style>
+        /* child selector */
+        /* .dv1>p{
+            color: brown;
+        }
+        /* decendent selector */
+        /* .dv1 h3{
+            color: blueviolet;
+        }
+        .dv2:hover{
+            color: red;
+        }
+        .dv2:first-child{
+            color: purple;  
+        }
+        .dv3::first-letter{
+            color: black;
+        } */
+        .dv1 .dv2{
+            color: blueviolet;
+        } 
+        .dv1 p{
+            color: brown;
+        }
+        .dv1>h3{
+            color: pink;
+        }
+        h3::after{
+            display: inline;
+            content: "@";
+        }
+        h3::first-letter{
+            color:purple;
+        }
+        p:hover{
+            color: blue;
+            background-color: blanchedalmond;
+        }
+        .dv1>h3{
+            color: chartreuse;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- decendent selector-applies styles on every decendent of any element(space)-->
+    <!-- class selector(>) applies styles for the child for the <element-->
+    <!-- pseudo class(:)-applying style based on state and positions(eg:hover,first-child,nth-child())-->
+    <!--pseudo element(::)-applying he styles specific to the data(eg:letter,first-line,before,after)-->
+    <div class="dv1">
+        <!-- <div class="dv2">
+            <h2>this is h2</h2>
+            <h2>this is h2</h2>
+            <div class="dv3">
+                <h3>this is h3</h3>
+            </div>
+            <div class="dv4"></div>
+        </div>
+        <div class="dv5">
+            <h3>this is h3</h3>
+            <p>this is p</p>
+        </div>
+        <p>this is p</p>     -->
+         <div class="dv2">
+            <div>
+                <h4>i'm rithika</h4>
+                <p>from IT 3rd year</p>
+            </div>
+         </div>
+         <h3>iam rithika</h3>
+    </div>
+</body>
+</html>

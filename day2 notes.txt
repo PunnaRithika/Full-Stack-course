@@ -33,6 +33,7 @@ selectors:
 universal selector:appliesto all the elements (*)
 id selector:can be used by givng id attribute and name to that id(#)
 class selector:using class attribute(.)
+elements selector
 selectors priority:
 id
 class
